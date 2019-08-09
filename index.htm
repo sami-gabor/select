@@ -19,10 +19,12 @@
                 //initialize the pqSelect widget.
                 $("#select3").pqSelect({
                     multiplePlaceholder: 'Select Regions',
+                    displayText: '{0} item{2} selected',
+                    maxDisplay: 0,
                     checkbox: true //adds checkbox to options    
                 }).on("change", function(evt) {
                     var val = $(this).val();
-                    alert(val);
+                    // alert(val);
                 }).pqSelect('open');
             });
         </script>  

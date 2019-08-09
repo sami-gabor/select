@@ -43,3 +43,7 @@ Dependencies:
 10. AMD support. (v1.3.0)
 
 11. Supports major browsers IE8+, Chrome, Firefox, Safari, Opera.
+
+12. Modified the Select All button functionality as follows:
+    -   when searching for items only the visible items will be selected
+    -   differentiate on the drop-down button if there is one or multiple  items selected 
